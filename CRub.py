@@ -28,15 +28,15 @@ class Unit:
             hit = 0
         aname.health = aname.health - hit
         print(self.name, ' did the hit. Current HP: ', self.health, ' Enemy HP: ', aname.health)
-class Magic(Unit):
+class Wizard(Unit):
     def __init__(self, name, damage, health, speed, armorlvl):
         super().__init__(vid='Magic', name=name, damage=damage, health=health, speed=speed, armorlvl=armorlvl)
-class Voin(Unit):
+class Warrior(Unit):
     def __init__(self, name, damage, health, speed, armorlvl):
         super().__init__(vid='Voin', name=name, damage=damage, health=health, speed=speed, armorlvl=armorlvl)
-class Strelok(Unit):
+class Archer(Unit):
     def __init__(self, name, damage, health, speed, armorlvl):
         super().__init__(vid='Strelok', name=name, damage=damage, health=health, speed=speed, armorlvl=armorlvl)
-class Komandir(Unit):
+class Commander(Unit):
     def __init__(self, name, damage, health, speed, armorlvl):
         super().__init__(vid='Komandir', name=name, damage=damage, health=health, speed=speed, armorlvl=armorlvl)
