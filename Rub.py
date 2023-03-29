@@ -1,4 +1,4 @@
-from ast import Global
+from ast import Global  #Made by Viktor Lobashev
 from random import random
 from random import randint
 from tkinter import *
